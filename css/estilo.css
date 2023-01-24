@@ -1,0 +1,164 @@
+div {
+    position: relative;
+    text-align: center;
+}
+.perfil {
+    width:560px ;
+
+}
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+    padding:20px;
+    
+   
+
+}
+
+h2 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(241, 245, 16);
+    font-family: 'Kanit', sans-serif;
+    
+    padding:20px;
+}
+
+.container {
+    display: flex;
+}
+
+.profile-picture {
+    width: 50%;
+    margin-right: 10px;
+    border-radius:50%;
+    margin-top:125px ;
+}
+
+
+  .personal-info {
+    width: 75%;
+    margin-top: 50px;
+   font-family: 'Poppins', sans-serif;
+   font-size: larger;
+ 
+   
+   margin-top: 120px;
+   
+
+  }
+
+  dialog{
+    background-color: #1beb1033
+    ;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:;
+    margin-top:15px ;
+    margin-bottom: 125px ;
+    color: rgb(223, 223, 215);
+    background-color:rgba(26, 3, 48, 0.274);
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: ;
+  }
+
+  h3{
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 125px;
+  }
+
+
+
+  .experiencia-cont{
+    background-color: ;
+    width: 300px;
+    border: 15px solid ;
+    padding: 50px;
+    margin: 20px;
+    font-size: x-large;
+  }
+
+
+  h4{
+
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 125px;
+
+
+  }
+
+
+  
+  h5{
+
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 125px;
+
+
+  }
+
+  nav {
+    display: flex; /* permite distribuir los botones en una fila */
+    justify-content: space-between; /* distribuye los botones de forma equitativa entre el espacio disponible */
+    align-items: center; /* centra los botones en el eje vertical */
+    background-color: #333; /* cambia el color de fondo a gris oscuro */
+    color: white; /* cambia el color del texto a blanco */
+    padding: 14px 20px; /* aumenta el tamaño del botón */
+    width: 100%; /* hace que el botón ocupe el ancho completo */
+  }
+  
+  nav button {
+    background-color: transparent; /* elimina el color de fondo */
+    color: white; /* cambia el color del texto a blanco */
+    border: none; /* elimina el borde */
+    cursor: pointer; /* cambia el cursor a mano */
+    padding: 14px 16px; /* aumenta el tamaño del botón */
+    text-align: center; /* centra el texto del botón */
+    text-decoration: none; /* elimina la decoración del texto */
+    display: inline-block; /* permite que el botón ocupe solo el espacio necesario */
+    font-size: 16px; /* cambia el tamaño de la letra */
+  }
+  
+  nav button:hover {
+    background-color: #ddd; /* cambia el color de fondo al pasar el cursor por encima */
+    color: black; /* cambia el color del texto al pasar el cursor por encima */
+  }
+
+
+  img {
+    width: 100%; /* establece el ancho de cada imagen en un 25% del ancho total */
+    height: 100%; /* mantiene la relación de aspecto de la imagen */
+
+  }
+  
+  body{
+  background: #0e0c82;
+  background: -webkit-radial-gradient(circle, #0e0c82 0%, #296026 100%);
+  background: radial-gradient(circle, #0e0c82 0%, #296026 100%);
+  }
