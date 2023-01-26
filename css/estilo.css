@@ -176,3 +176,33 @@ background: -webkit-radial-gradient(circle, #0e0c82 0%, #296026 100%);
 background: radial-gradient(circle, #0e0c82 0%, #296026 100%);
 }
 
+@media only screen and (max-width: 800px) {
+/* Estilos para pantallas con un ancho máximo de 800px */
+
+/* Ocultar el menú */
+nav {
+display: none;
+}
+
+/* Redimensionar el contenedor principal */
+.container {
+max-width: 600px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+/* Estilos para pantallas con un ancho máximo de 600px */
+
+/* Redimensionar la imagen de perfil */
+.profile-picture {
+width: 50%;
+}
+
+/* Redimensionar la sección de información personal */
+.personal-info {
+width: 75%;
+}
+
+/* Redimensionar los títulos */
+h1, h2, h3, h4, h5 {
+font-size: medium;
