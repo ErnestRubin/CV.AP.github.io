@@ -187,55 +187,24 @@ max-width: 600px;
 }
 
 @media only screen and (max-width: 600px) {
-/* Estilos para pantallas con un ancho máximo de 600px */
-  
-  /* Redimensionar el contenedor principal */
-.container {
-max-width: 300px;
-}
+/* Estilos para pantallas con un ancho máximo de 800px */
 
 
-/* Redimensionar la imagen de perfil */
-.profile-picture {
-width: 50%;
-}
-
-/* Redimensionar la sección de información personal */
-.personal-info {
-width: 75%;
-}
-
-/* Redimensionar los títulos */
-h1, h2, h3, h4, h5 {
-font-size: medium;
-  }
-  
-}
-  
-  @media only screen and (max-width: 400px) {
-  /* Estilos para pantallas con un ancho máximo de 400px */
-      
 /* Redimensionar el contenedor principal */
 .container {
-max-width: 150px;
+max-width: 400px;
+}
 }
 
 
-/* Redimensionar la imagen de perfil */
-.profile-picture {
-width: 40%;
-  
-margin-top: 5%;
+@media only screen and (max-width: 400px) {
+/* Estilos para pantallas con un ancho máximo de 800px */
+
+
+/* Redimensionar el contenedor principal */
+.container {
+max-width: 200px;
+}
 }
 
-/* Redimensionar la sección de información personal */
-.personal-info {
-width: 60%;
-margin-top: 25%;
-}
 
-/* Redimensionar los títulos */
-h1, h2, h3, h4, h5 {
-font-size: medium;
-}
-  }
