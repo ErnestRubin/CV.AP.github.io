@@ -206,3 +206,22 @@ width: 75%;
 /* Redimensionar los títulos */
 h1, h2, h3, h4, h5 {
 font-size: medium;
+  }
+  
+  
+  /* Estilos para pantallas con un ancho máximo de 400px */
+
+/* Redimensionar la imagen de perfil */
+.profile-picture {
+width: 40%;
+}
+
+/* Redimensionar la sección de información personal */
+.personal-info {
+width: 60%;
+}
+
+/* Redimensionar los títulos */
+h1, h2, h3, h4, h5 {
+font-size: medium;
+}
