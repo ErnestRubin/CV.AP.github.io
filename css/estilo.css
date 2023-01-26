@@ -171,17 +171,3 @@ h2 {
   margin: 0 auto; /* Centrar automáticamente */
 }
 
-/* Row */
-.row {
-  display: flex; /* Utilizar flexbox */
-  flex-wrap: wrap; /* Permitir que las columnas se ajusten automáticamente al tamaño del viewport */
-}
-
-/* Columns */
-.col-12 {
-  flex: 1; /* Establecer flex-basis en 0 para ajustarse automáticamente al tamaño del viewport */
-  margin: 10px; /* Agregar margen automático */
-}
-
-/* Media query para dispositivos móviles */
-
