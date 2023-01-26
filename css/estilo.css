@@ -224,11 +224,13 @@ max-width: 150px;
 /* Redimensionar la imagen de perfil */
 .profile-picture {
 width: 40%;
+margin-top: 5%;
 }
 
 /* Redimensionar la sección de información personal */
 .personal-info {
 width: 60%;
+margin-top: 5%;
 }
 
 /* Redimensionar los títulos */
