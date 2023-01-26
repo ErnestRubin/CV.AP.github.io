@@ -179,10 +179,6 @@ background: radial-gradient(circle, #0e0c82 0%, #296026 100%);
 @media only screen and (max-width: 800px) {
 /* Estilos para pantallas con un ancho máximo de 800px */
 
-/* Ocultar el menú */
-nav {
-display: none;
-}
 
 /* Redimensionar el contenedor principal */
 .container {
