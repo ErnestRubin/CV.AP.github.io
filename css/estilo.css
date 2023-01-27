@@ -208,7 +208,7 @@ max-width: 300px;
 }
 
 #personal-info .container {
-  width: 80%; /* Establecer un ancho para el contenedor */
+  width: 50%; /* Establecer un ancho para el contenedor */
   margin: auto; /* Centrar el contenedor en relación al ancho del viewport */
 }
 
