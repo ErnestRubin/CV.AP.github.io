@@ -205,10 +205,4 @@ max-width: 400px;
 .container {
 max-width: 300px;
 }
-}
-
-#personal-info .container {
-  width: 40%; /* Establecer un ancho para el contenedor */
-  margin: auto; /* Centrar el contenedor en relación al ancho del viewport */
-}
 
