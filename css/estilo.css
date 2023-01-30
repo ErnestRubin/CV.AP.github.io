@@ -202,7 +202,10 @@ table{
   h3{
     text-align: left;
   }
-    
+    nav{
+  width: 100%;
+}
+
 }
 @media only screen and (max-width: 400px) {
 /* Estilos para pantallas con un ancho máximo de 800px */
@@ -218,5 +221,9 @@ table{
  h3{
     text-align: left;
   }
+  nav{
+  width: 100%;
+}
+
     
 }
