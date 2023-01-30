@@ -194,15 +194,21 @@ max-width: 600px;
 .container {
 max-width: 400px;
 }
+
+table{
+  margin-top:65% ;
 }
-
-
+}
 @media only screen and (max-width: 400px) {
 /* Estilos para pantallas con un ancho máximo de 800px */
 
 
 /* Redimensionar el contenedor principal */
 .container {
-max-width: 300px;
+max-width:200px;
 }
+table{
+  margin-top:85% ;
+}
+
 }
